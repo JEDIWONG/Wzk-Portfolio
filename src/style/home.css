@@ -1,0 +1,34 @@
+.section-title{
+    text-align: center;
+    font-size: 48px;
+    font-family: sans-serif,Verdana, Geneva, Tahoma, ;
+    margin-bottom: 20px;
+}
+
+.project-section{
+    margin-top: 50px;
+    
+}
+
+.title-divider{
+    text-align: center;
+    width: 5%;
+    background-color: gold;
+    height: 6px;
+    border: none;
+    border-radius: 20px;
+}
+
+.intro-section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.intro-section img{
+    align-self: center;
+    width: 40%;
+    height: 500px;
+    margin-left: 10%;
+    border-radius: 20px;
+}
