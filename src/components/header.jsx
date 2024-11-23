@@ -8,7 +8,7 @@ function Header(){
             <header className="header-container">
                 <h3>
                     
-                    <Link className="nav-link" to="/Wzk-Portfolio">
+                    <Link className="nav-link" to="/">
                         WONG ZHI KIN
                     </Link>
                 </h3>
@@ -17,7 +17,7 @@ function Header(){
 
 
                     <li>
-                        <Link className="nav-link" to="/Wzk-Portfolio">
+                        <Link className="nav-link" to="/">
                             Home
                         </Link>
                     </li>
