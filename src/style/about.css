@@ -1,3 +1,63 @@
 .about-container{
     margin-top: 50px;
 }
+
+.about-section{
+    margin-top: 50px;
+}
+
+.about-section hr{
+    text-align: center;
+    width: 20%;
+    background-color: gold;
+    height: 5px;
+    border: none;
+    border-radius: 20px;
+}
+
+.about-section h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.interest-container{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10%;
+    position: relative;
+    left: 10%;
+    margin-top: 100px;
+}
+
+.interest-card-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0px 0px 1px;
+    border-radius: 20px;
+    padding: 1%;
+    width: 30%;
+}
+
+.interest-card-container img{
+    height: 100px;
+}
+
+.interest-card-container hr{
+    text-align: center;
+    width: 20%;
+    background-color: gold;
+    height: 5px;
+    border: none;
+    border-radius: 20px;
+}
+
+.interest-card-container h1{
+   font-size: 20px;
+   font-family: sans-serif;
+}
+
+.interest-card-container p{
+    text-align: justify;
+    padding-inline: 10%;
+ }

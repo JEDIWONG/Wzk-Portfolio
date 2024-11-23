@@ -7,7 +7,6 @@
 
 .project-section{
     margin-top: 50px;
-    
 }
 
 .title-divider{
@@ -32,3 +31,43 @@
     margin-left: 10%;
     border-radius: 20px;
 }
+
+.cert-card-container{
+    display: flex;
+    flex-direction: row;
+    margin-inline: 10%;
+    box-shadow: 0px 1px 1px grey;
+    padding: 1%;
+    margin-top: 50px;
+}
+
+.cert-card-container img{
+    height: 150px;
+    
+}
+
+.cert-card-container button{
+    height: 50px;
+    padding-inline: 5%;
+    align-self: center;
+}
+
+.cert-card-details{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-left: 5%;
+}
+
+.cert-card-details h1{
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+.cert-card-details p{
+    padding-left: 5%;
+    text-align: justify;
+    width: 80%;
+}
+
+

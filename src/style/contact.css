@@ -1,0 +1,64 @@
+.alt-contact-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.alt-contact-section ul{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10%;
+    margin-top: 50px;
+    position: relative;
+    left: 20%;
+}
+
+.alt-contact-section li{
+    list-style: none;
+    font-size: 18px;
+    font-family:monospace; 
+    text-shadow: 0px 1px 1px grey;
+}
+
+
+.alt-contact-section h2{
+   font-size: 32px;
+   text-align: center;
+   font-family: sans-serif;
+}
+
+.alt-contact-section hr{
+    text-align: center;
+    width: 5%;
+    background-color: gold;
+    height: 5px;
+    border: none;
+    border-radius: 20px;
+}
+
+.contact-action{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10%;
+    margin-inline: 10%;
+    margin-top: 100px;
+    box-shadow: 0px 0px 1px black;
+    padding-inline: 5%;
+    border-radius: 20px;
+}
+
+.contact-action-details{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.contact-action-details p{
+    margin-left: 5%;
+}
+
+
+.contact-action button{
+    height: 50px;
+    align-self: center;
+}

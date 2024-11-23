@@ -15,6 +15,13 @@ function Header(){
                 
                 <ul className="header-nav-bar">
 
+
+                    <li>
+                        <Link className="nav-link" to="/Wzk-Portfolio">
+                            Home
+                        </Link>
+                    </li>
+
                     
                     <li>
                         <Link className="nav-link" to="about/">
@@ -29,7 +36,7 @@ function Header(){
                     </li>
 
                     <li>
-                        <Link className="nav-link" to="about/">
+                        <Link className="nav-link" to="contact/">
                             Contacts
                         </Link>
                     </li>
