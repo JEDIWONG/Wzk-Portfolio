@@ -30,7 +30,7 @@ function Header(){
                     </li>
 
                     <li>
-                        <Link className="nav-link" to="about/">
+                        <Link className="nav-link" to="project/">
                             Projects
                         </Link>
                     </li>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../style/project_card.css"
 
 
@@ -14,9 +15,12 @@ function ProjectCard(props){
                     <p>
                         {props.desc}
                     </p>
-                    <button className="button-outlined">
-                        View Project
-                    </button>
+                    <Link to={props.url}>
+                        <button className="button-outlined">
+                            View Project
+                        </button>
+                    </Link>
+                    
                 </div>
                 
                 <img src={props.img} ></img>

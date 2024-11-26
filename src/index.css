@@ -6,6 +6,10 @@ p{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+button:hover{
+  cursor: pointer;
+}
+
 .button-filled{
   background-color: gold;
   border: none;
@@ -27,4 +31,8 @@ p{
   width: fit-content;
   font-size: 20px;
   font-weight: lighter;
+}
+
+.Link{
+  align-self: center;
 }

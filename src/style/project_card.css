@@ -16,12 +16,12 @@
     flex-direction: column;
     margin-right: 15%;
     align-self: center;
-    
 }
 
 .project-card-details h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 28px;
+
 }
 
 .project-card-details p{
@@ -37,6 +37,7 @@
 }
 
 .project-card-container img{
+    max-width: 50%;
     height: 300px;
     border-radius: 10px;
 }

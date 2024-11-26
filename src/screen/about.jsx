@@ -3,6 +3,7 @@ import "../style/about.css"
 import avatar from "../assets/avatar.jpg"
 import interest_01 from "../assets/software.svg"
 import interest_02 from "../assets/devops.svg"
+import edu_logo from "../assets/UNIMAS_logo.png"
 
 function InterestCard(props){
 
@@ -19,6 +20,32 @@ function InterestCard(props){
         </>
     );
 }
+
+function EduCard(props){
+
+    return(
+        <>
+            <div className="edu-card-container">
+                <img src={props.imgUrl}></img>
+
+                <div className="edu-card-details">
+                    <p className="edu-period">{props.period}</p>
+                    <h1>
+                        {props.title}
+                    </h1>
+                    <div>
+                        <p>{props.location}</p>
+                        <p>CGPA: {props.grade}</p>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </>
+    );
+}
+
+
 
 function About(){
 
@@ -54,6 +81,23 @@ function About(){
                     
                     
                 </section>        
+
+                <section className="about-section">
+                    <h1>
+                        Education
+                    </h1>
+
+                    <hr/>
+
+                    <EduCard 
+                        imgUrl={edu_logo}
+                        period="2022-2026"
+                        title="Bachelor Degree of Software Engineering (Hons)" 
+                        location="University of Malaysia Sarawak"
+                        grade="3.99"
+                    />
+                    
+                </section>
 
             </div>
         </>
