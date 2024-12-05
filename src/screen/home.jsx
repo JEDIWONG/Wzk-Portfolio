@@ -47,8 +47,8 @@ function Home(){
                         name="WONG ZHI KIN"
                         desc="Third-year Software Engineering student at Universiti Malaysia Sarawak (UNIMAS), 
                         proficient in React.js, Flutter, Java, and Python. Skilled in developing mobile and web applications.
-                        Holds a Microsoft Azure Fundamentals certification and is passionate about crafting innovative solutions.
-                        Seeking an internship in Kuala Lumpur starting March 2025 to contribute to impactful software projects while expanding my expertise."
+                        Passionate about crafting innovative solutions.
+                        Seeking an internship around Kuala Lumpur area starting March 2025 to contribute to impactful software projects while expanding my expertise."
                     />
 
                     <img src={avatar}></img>
@@ -58,8 +58,8 @@ function Home(){
                 <section className="project-section">
                     <h1  className="section-title">Projects</h1>
                     <hr className="title-divider"></hr>
-                    <ProjectCard name="Flutter Health Care App" desc="Mobile App built using Flutter framework" img={pro_1} url="https://github.com/JEDIWONG/Health_Matrix"/>
-                    <ProjectCard name="Retail App" desc="FrontEnd Website built using ReactJS" img={pro_2} url="https://jediwong.github.io/Banana-Retail-Site/"/> 
+                    <ProjectCard name="Health Care Mobile" desc="Android Application built for health care monitoring using Flutter. Inspired greatly by Google Health" img={pro_1} url="https://github.com/JEDIWONG/Health_Matrix"/>
+                    <ProjectCard name="Website For Retails Solution" desc="Frontend application built using ReactJS which present the UI/UX of a retail solution" img={pro_2} url="https://jediwong.github.io/Banana-Retail-Site/"/> 
                 </section>
 
                 <section className="project-section">
