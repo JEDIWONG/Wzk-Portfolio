@@ -29,6 +29,13 @@
 
 .project-head-details div{
     padding-left: 10%;
+
+}
+
+.project-head-details button{
+    margin-top: 50px;
+    margin-left: 20%;
+    
 }
 
 .project-head-details p{

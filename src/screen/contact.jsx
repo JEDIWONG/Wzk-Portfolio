@@ -7,7 +7,7 @@ function Contact(){
     return(
         <>
             <div className="contact-container">
-                <ContactIntro location="Current Studying Abroad At Kuching but will available at Kuala Lumpur, Ipoh and Kuantan"
+                <ContactIntro location="Current Studying Abroad At Kuching but will open to working position around Kuala Lumpur and Penang"
                             imgUrl={loc_img}
                 />
                 
@@ -43,7 +43,9 @@ function Contact(){
                     </div>
                     
 
-                    <button className="button-filled">Email</button>
+                    <button className="button-filled" >
+                        <Link className="Link" to="mailto:jediwzk@gmail.com">Email</Link>
+                    </button>
                 </div>
                 
             </div>

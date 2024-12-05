@@ -1,6 +1,7 @@
 import ProjectCard from "../components/project_card"
 import "../style/project.css"
 import icon from "../assets/project_icon.jpg"
+import { Link } from "react-router-dom"
 
 function Projecthead(props){
 
@@ -16,6 +17,10 @@ function Projecthead(props){
                         <h1>Lets Take A Look Of My Projects</h1>
                         <p>{props.desc}</p>
                     </div>
+
+                    <button className="button-filled">
+                        <Link className="Link" to="https://github.com/JEDIWONG">Github</Link>
+                    </button>
 
                 </div>
 
