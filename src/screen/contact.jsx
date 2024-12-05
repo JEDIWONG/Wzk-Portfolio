@@ -1,6 +1,7 @@
 import "../style/contact.css"; 
 import ContactIntro from "../components/contactIntro";
 import loc_img from "../assets/ipoh.jpg";
+import { Link } from "react-router-dom";
 
 function Contact(){
     return(
@@ -17,19 +18,19 @@ function Contact(){
                     <ul>
 
                         <li>
-                            Github
+                            <Link className="Link" to="https://github.com/JEDIWONG">Github</Link>
                         </li>
 
                         <li>
-                            Instagram
+                            <Link className="Link" to="https://github.com/JEDIWONG">Instagram</Link>
                         </li>
 
                         <li>
-                            linkedIn
+                            <Link className="Link" to="https://github.com/JEDIWONG">linkedIn</Link>
                         </li>
 
                         <li>
-                            Discord
+                            <Link className="Link" to="https://github.com/JEDIWONG">Discord</Link>
                         </li>
 
                     </ul>

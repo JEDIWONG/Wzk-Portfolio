@@ -20,6 +20,10 @@
     text-shadow: 0px 1px 1px grey;
 }
 
+.alt-contact-section li:hover{
+    color: gold;
+    
+}
 
 .alt-contact-section h2{
    font-size: 32px;

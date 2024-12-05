@@ -35,4 +35,6 @@ button:hover{
 
 .Link{
   align-self: center;
+  text-decoration: none;
+  color: inherit;
 }

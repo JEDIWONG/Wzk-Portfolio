@@ -16,10 +16,8 @@ function Footer(){
                     <img src={linkedin_icon}></img>
                 </div>
                 
-
                 <p>WONG ZHI KIN 2024</p>
             </div>
-
 
         </>
     ); 
